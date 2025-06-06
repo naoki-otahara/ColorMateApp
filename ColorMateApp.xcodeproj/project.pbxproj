@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		77F1FF132DF2C90600CF7FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77F1FEFA2DF2C90300CF7FA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77F1FF012DF2C90300CF7FA9;
+			remoteInfo = ColorMateApp;
+		};
+		77F1FF1D2DF2C90600CF7FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77F1FEFA2DF2C90300CF7FA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77F1FF012DF2C90300CF7FA9;
+			remoteInfo = ColorMateApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77F1FF022DF2C90300CF7FA9 /* ColorMateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F1FF122DF2C90600CF7FA9 /* ColorMateAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorMateAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F1FF1C2DF2C90600CF7FA9 /* ColorMateAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorMateAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		77F1FF042DF2C90300CF7FA9 /* ColorMateApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ColorMateApp;
+			sourceTree = "<group>";
+		};
+		77F1FF152DF2C90600CF7FA9 /* ColorMateAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ColorMateAppTests;
+			sourceTree = "<group>";
+		};
+		77F1FF1F2DF2C90600CF7FA9 /* ColorMateAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ColorMateAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77F1FEFF2DF2C90300CF7FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F1FF0F2DF2C90600CF7FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F1FF192DF2C90600CF7FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77F1FEF92DF2C90300CF7FA9 = {
+			isa = PBXGroup;
+			children = (
+				77F1FF042DF2C90300CF7FA9 /* ColorMateApp */,
+				77F1FF152DF2C90600CF7FA9 /* ColorMateAppTests */,
+				77F1FF1F2DF2C90600CF7FA9 /* ColorMateAppUITests */,
+				77F1FF032DF2C90300CF7FA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77F1FF032DF2C90300CF7FA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77F1FF022DF2C90300CF7FA9 /* ColorMateApp.app */,
+				77F1FF122DF2C90600CF7FA9 /* ColorMateAppTests.xctest */,
+				77F1FF1C2DF2C90600CF7FA9 /* ColorMateAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77F1FF012DF2C90300CF7FA9 /* ColorMateApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F1FF262DF2C90600CF7FA9 /* Build configuration list for PBXNativeTarget "ColorMateApp" */;
+			buildPhases = (
+				77F1FEFE2DF2C90300CF7FA9 /* Sources */,
+				77F1FEFF2DF2C90300CF7FA9 /* Frameworks */,
+				77F1FF002DF2C90300CF7FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				77F1FF042DF2C90300CF7FA9 /* ColorMateApp */,
+			);
+			name = ColorMateApp;
+			packageProductDependencies = (
+			);
+			productName = ColorMateApp;
+			productReference = 77F1FF022DF2C90300CF7FA9 /* ColorMateApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77F1FF112DF2C90600CF7FA9 /* ColorMateAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F1FF292DF2C90600CF7FA9 /* Build configuration list for PBXNativeTarget "ColorMateAppTests" */;
+			buildPhases = (
+				77F1FF0E2DF2C90600CF7FA9 /* Sources */,
+				77F1FF0F2DF2C90600CF7FA9 /* Frameworks */,
+				77F1FF102DF2C90600CF7FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77F1FF142DF2C90600CF7FA9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				77F1FF152DF2C90600CF7FA9 /* ColorMateAppTests */,
+			);
+			name = ColorMateAppTests;
+			packageProductDependencies = (
+			);
+			productName = ColorMateAppTests;
+			productReference = 77F1FF122DF2C90600CF7FA9 /* ColorMateAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77F1FF1B2DF2C90600CF7FA9 /* ColorMateAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F1FF2C2DF2C90600CF7FA9 /* Build configuration list for PBXNativeTarget "ColorMateAppUITests" */;
+			buildPhases = (
+				77F1FF182DF2C90600CF7FA9 /* Sources */,
+				77F1FF192DF2C90600CF7FA9 /* Frameworks */,
+				77F1FF1A2DF2C90600CF7FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77F1FF1E2DF2C90600CF7FA9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				77F1FF1F2DF2C90600CF7FA9 /* ColorMateAppUITests */,
+			);
+			name = ColorMateAppUITests;
+			packageProductDependencies = (
+			);
+			productName = ColorMateAppUITests;
+			productReference = 77F1FF1C2DF2C90600CF7FA9 /* ColorMateAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77F1FEFA2DF2C90300CF7FA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					77F1FF012DF2C90300CF7FA9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					77F1FF112DF2C90600CF7FA9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 77F1FF012DF2C90300CF7FA9;
+					};
+					77F1FF1B2DF2C90600CF7FA9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 77F1FF012DF2C90300CF7FA9;
+					};
+				};
+			};
+			buildConfigurationList = 77F1FEFD2DF2C90300CF7FA9 /* Build configuration list for PBXProject "ColorMateApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77F1FEF92DF2C90300CF7FA9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 77F1FF032DF2C90300CF7FA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77F1FF012DF2C90300CF7FA9 /* ColorMateApp */,
+				77F1FF112DF2C90600CF7FA9 /* ColorMateAppTests */,
+				77F1FF1B2DF2C90600CF7FA9 /* ColorMateAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77F1FF002DF2C90300CF7FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F1FF102DF2C90600CF7FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F1FF1A2DF2C90600CF7FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77F1FEFE2DF2C90300CF7FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F1FF0E2DF2C90600CF7FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F1FF182DF2C90600CF7FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77F1FF142DF2C90600CF7FA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77F1FF012DF2C90300CF7FA9 /* ColorMateApp */;
+			targetProxy = 77F1FF132DF2C90600CF7FA9 /* PBXContainerItemProxy */;
+		};
+		77F1FF1E2DF2C90600CF7FA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77F1FF012DF2C90300CF7FA9 /* ColorMateApp */;
+			targetProxy = 77F1FF1D2DF2C90600CF7FA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		77F1FF242DF2C90600CF7FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77F1FF252DF2C90600CF7FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77F1FF272DF2C90600CF7FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorMateApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 59S8F92898;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naoki.ColorMateApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77F1FF282DF2C90600CF7FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorMateApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 59S8F92898;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naoki.ColorMateApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77F1FF2A2DF2C90600CF7FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59S8F92898;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naoki.ColorMateAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorMateApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ColorMateApp";
+			};
+			name = Debug;
+		};
+		77F1FF2B2DF2C90600CF7FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59S8F92898;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naoki.ColorMateAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorMateApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ColorMateApp";
+			};
+			name = Release;
+		};
+		77F1FF2D2DF2C90600CF7FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59S8F92898;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naoki.ColorMateAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorMateApp;
+			};
+			name = Debug;
+		};
+		77F1FF2E2DF2C90600CF7FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59S8F92898;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naoki.ColorMateAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorMateApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77F1FEFD2DF2C90300CF7FA9 /* Build configuration list for PBXProject "ColorMateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F1FF242DF2C90600CF7FA9 /* Debug */,
+				77F1FF252DF2C90600CF7FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F1FF262DF2C90600CF7FA9 /* Build configuration list for PBXNativeTarget "ColorMateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F1FF272DF2C90600CF7FA9 /* Debug */,
+				77F1FF282DF2C90600CF7FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F1FF292DF2C90600CF7FA9 /* Build configuration list for PBXNativeTarget "ColorMateAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F1FF2A2DF2C90600CF7FA9 /* Debug */,
+				77F1FF2B2DF2C90600CF7FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F1FF2C2DF2C90600CF7FA9 /* Build configuration list for PBXNativeTarget "ColorMateAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F1FF2D2DF2C90600CF7FA9 /* Debug */,
+				77F1FF2E2DF2C90600CF7FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77F1FEFA2DF2C90300CF7FA9 /* Project object */;
+}
