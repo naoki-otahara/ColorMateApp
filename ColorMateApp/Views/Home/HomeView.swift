@@ -14,7 +14,7 @@ struct HomeView: View {
                         .font(.headline)
                         .foregroundColor(.secondary)
                     
-                    NavigationLink(destination: Text("カメラ画面")) {
+                    NavigationLink(destination: CameraView()) {
                         Text("写真を撮る")
                             .frame(maxWidth: .infinity)
                             .padding()
@@ -23,7 +23,7 @@ struct HomeView: View {
                             .cornerRadius(10)
                     }
                     
-                    NavigationLink(destination: Text("フォトライブラリ画面")) {
+                    NavigationLink(destination: PhotoPickerView()) {
                         Text("写真を選ぶ")
                             .frame(maxWidth: .infinity)
                             .padding()
