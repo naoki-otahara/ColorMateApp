@@ -15,15 +15,15 @@ struct ImagePreviewView: View {
                 .cornerRadius(12)
                 .shadow(radius: 4)
             
-            Button("この画像で診断を続ける") {
-                // TODO: ドレープ選択画面へ遷移する処理
+            NavigationLink(destination: DrapeOverlayView(baseImage: image)) {
+                Text("この画像で診断を続ける")
+                    .frame(maxWidth: .infinity)
+                    .padding()
+                    .background(Color.mint)
+                    .foregroundColor(.white)
+                    .cornerRadius(12)
+                    .padding(.horizontal)
             }
-            .frame(maxWidth: .infinity)
-            .padding()
-            .background(Color.mint)
-            .foregroundColor(.white)
-            .cornerRadius(12)
-            .padding(.horizontal)
             
             Spacer()
         }
