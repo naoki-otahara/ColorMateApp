@@ -3,6 +3,8 @@ import UIKit
 
 struct CameraView: UIViewControllerRepresentable {
     @Environment(\.dismiss) var dismiss
+    @Binding var selectedImage: UIImage?
+    var onImagePicked: () -> Void
     
     class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
         var parent: CameraView
@@ -13,8 +15,8 @@ struct CameraView: UIViewControllerRepresentable {
         
         func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
             if let image = info[.originalImage] as? UIImage {
-                // 今後：image を ViewModelや遷移先に渡す処理を書く
-                print("📷 撮影された画像: \(image)")
+                parent.selectedImage = image
+                parent.onImagePicked()
             }
             parent.dismiss()
         }
@@ -25,7 +27,7 @@ struct CameraView: UIViewControllerRepresentable {
     }
     
     func makeCoordinator() -> Coordinator {
-        return Coordinator(parent: self)
+        Coordinator(parent: self)
     }
     
     func makeUIViewController(context: Context) -> UIImagePickerController {
