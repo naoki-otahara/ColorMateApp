@@ -24,10 +24,10 @@ struct DrapeOverlayView: View {
                             .font(.caption)
                             .foregroundColor(.white)
                     )
-                    .offset(y: 100) // 顔の下あたりを想定
+                    .offset(y: 100) // 顔の下あたりに表示
             }
             
-            // 仮のカラーパレット
+            // カラー選択パレット
             HStack(spacing: 16) {
                 ForEach([Color.red, Color.blue, Color.green, Color.yellow], id: \.self) { color in
                     Circle()
@@ -36,9 +36,22 @@ struct DrapeOverlayView: View {
                         .onTapGesture {
                             selectedColor = color
                         }
-                        .overlay(Circle().stroke(Color.black, lineWidth: selectedColor == color ? 2 : 0))
+                        .overlay(
+                            Circle().stroke(Color.black, lineWidth: selectedColor == color ? 2 : 0)
+                        )
                 }
             }
+            
+            // 診断結果へ進むボタン
+            NavigationLink(destination: DiagnosisResultView()) {
+                Text("診断結果へ進む")
+                    .frame(maxWidth: .infinity)
+                    .padding()
+                    .background(Color.gray.opacity(0.2))
+                    .foregroundColor(.mint)
+                    .cornerRadius(12)
+            }
+            .padding(.horizontal)
             
             Spacer()
         }
