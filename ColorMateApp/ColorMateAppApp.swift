@@ -4,7 +4,7 @@ import SwiftUI
 struct ColorMateAppApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            MainTabView()
         }
     }
 }
